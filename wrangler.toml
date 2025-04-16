@@ -1,0 +1,8 @@
+name = "vue-fina"
+compatibility_date = "2023-10-01"
+main = "src/worker.js" 
+
+[[d1_databases]]
+binding = "DB" # Nama binding yang akan digunakan di Workers
+database_name = "vue-fina"
+database_id = "0e327645-d6c1-4816-8af8-319389334dda"
