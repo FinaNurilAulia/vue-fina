@@ -4,7 +4,7 @@ export default {
   
       if (pathname === "/api/mahasiswa") {
         // Ambil data dari D1
-        const result = await env.DB.prepare("SELECT * FROM mahasiwa").all();
+        const result = await env.DB.prepare("SELECT * FROM mahasiswa").all();
         return new Response(JSON.stringify(result), {
           headers: { "Content-Type": "application/json" },
         });
